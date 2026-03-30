@@ -10,7 +10,7 @@ read_when:
   - Quick document parsing without login
   - OCR on scanned documents
   - Fast document conversion
-metadata: {"openclaw":{"emoji":"⚡","homepage":"https://mineru.net","source":"https://github.com/MinerU-Extract/mineru-fast-extract","author":"OpenDataLab","license":"Apache-2.0","requires":{"bins":["mineru-open-api"]},"install":[{"id":"npm","kind":"node","package":"mineru-open-api","bins":["mineru-open-api"],"label":"Install via npm"},{"id":"go","kind":"go","package":"github.com/opendatalab/MinerU-Ecosystem/cli/mineru-open-api","bins":["mineru-open-api"],"label":"Install via go install","os":["darwin","linux"]}]}}
+metadata: {"openclaw":{"emoji":"⚡","homepage":"https://mineru.net","source":"https://github.com/MinerU-Extract/mineru-fast-extract","author":"OpenDataLab","requires":{"bins":["mineru-open-api"]},"install":[{"id":"npm","kind":"node","package":"mineru-open-api","bins":["mineru-open-api"],"label":"Install via npm"},{"id":"go","kind":"go","package":"github.com/opendatalab/MinerU-Ecosystem/cli/mineru-open-api","bins":["mineru-open-api"],"label":"Install via go install","os":["darwin","linux"]}]}}
 allowed-tools: Bash(mineru-open-api:*)
 ---
 
