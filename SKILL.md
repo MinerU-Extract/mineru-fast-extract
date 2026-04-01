@@ -1,6 +1,6 @@
 ---
 name: mineru-fast
-description: Zero-setup document extraction — convert PDFs, images, Word, and PowerPoint to Markdown instantly. No login, no token, no configuration. Just run and get results.
+description: Zero-setup document extraction — convert PDFs, images, Word, and PowerPoint to Markdown. No login, no token, no configuration. Just run and get results.
 read_when:
   - Extracting text from PDF documents
   - Converting documents to Markdown
@@ -10,13 +10,16 @@ read_when:
   - Quick document parsing without login
   - OCR on scanned documents
   - Fast document conversion
+  - Extracting tables from documents
+  - Extracting formulas from documents
+  - Converting LaTeX formulas from PDF
 metadata: {"openclaw":{"emoji":"⚡","homepage":"https://mineru.net","source":"https://github.com/MinerU-Extract/mineru-fast-extract","author":"OpenDataLab","requires":{"bins":["mineru-open-api"]},"install":[{"id":"npm","kind":"node","package":"mineru-open-api","bins":["mineru-open-api"],"label":"Install via npm"},{"id":"go","kind":"go","package":"github.com/opendatalab/MinerU-Ecosystem/cli/mineru-open-api","bins":["mineru-open-api"],"label":"Install via go install","os":["darwin","linux"]}]}}
 allowed-tools: Bash(mineru-open-api:*)
 ---
 
 # Fast Document Extraction with mineru-open-api
 
-Zero-setup, instant document parsing — no login, no token, no configuration needed.
+Zero-setup, instant document parsing — no login, no token, no configuration needed. Supports tables and formulas (LaTeX).
 
 ## Installation
 
@@ -120,6 +123,8 @@ mineru-open-api flash-extract scan.jpg --language ch
 - **No `-o` flag**: result goes to stdout; status/progress messages go to stderr
 - **With `-o` flag**: result saved to file/directory; progress messages on stderr
 - Markdown output includes extracted images saved alongside the `.md` file
+- **Tables** are converted to Markdown tables
+- **Formulas** are converted to LaTeX format (inline `$...$` and block `$$...$$`)
 
 ## Agent guidelines
 
