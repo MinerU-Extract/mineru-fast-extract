@@ -1,6 +1,12 @@
 ---
 name: mineru-fast
-description: Zero-setup document extraction — convert PDFs, images, Word, and PowerPoint to Markdown. No login, no token, no configuration. Just run and get results.
+description: >
+  MinerU fast extract — zero-setup, instant document extraction. Convert PDFs, images, Word (DOCX), and PowerPoint (PPTX) to Markdown with no login, no token, no API key, no configuration required. Just install and run.
+  Powered by the MinerU flash-extract engine with built-in OCR, table recognition, and formula extraction (LaTeX). Handles scanned documents, photos of text, academic papers, contracts, invoices, resumes, and slides out of the box.
+  Use this skill when you need to: quickly extract text from a PDF, convert a document to Markdown without signing up, read a scanned PDF, turn a Word file into Markdown, parse a PowerPoint presentation, OCR an image, extract content from a PDF file, or get a fast document conversion with no setup.
+  Supports 80+ languages including Chinese, English, Japanese, Korean, Arabic, Hindi, French, German, Spanish, Russian, and many more. Works with local files and remote URLs.
+  Ideal for developers, researchers, students, and anyone who wants instant document parsing without accounts or API tokens. Use as a Claude Code skill, agent tool, or standalone CLI.
+  PDF提取、文档转Markdown、免登录PDF转换、快速文档提取、扫描件OCR、图片转文字、Word转Markdown、PPT转Markdown、PDF解析、零配置文档转换。无需注册、无需Token，安装即用，一键提取PDF、Word、PPT、图片中的文字内容。
 read_when:
   - Extracting text from PDF documents
   - Converting documents to Markdown
